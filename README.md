@@ -1,8 +1,9 @@
 # CS6190-return-oriented-programming
-Presentation and Resources for ROP exploit presentation 
+Presentation and Resources for ROP exploit presentation for 'CS6190 Computer Science Prespectives'
 
-### Folder Tree
+### Project Tree
 
+```
 .
 ├── Dockerfile
 ├── LICENSE
@@ -14,16 +15,17 @@ Presentation and Resources for ROP exploit presentation
 │   ├── GadgetList.txt
 │   ├── Official Solution.py
 │   ├── Saket's Solution.py
-│   └── libc6_2.27-3ubuntu1_amd64.so
+│   ├── libc6_2.27-3ubuntu1_amd64.so
+│   └── requirements.txt
 ├── publish
 │   └── vulnerablecode
-├── source_code
-│   ├── Makefile
-│   ├── VulnerableProgram.c
-│   └── flag.txt
-└── tree.txt
+└── source_code
+    ├── Makefile
+    ├── VulnerableProgram.c
+    └── flag.txt
 
 4 directories, 14 files
+```
 
 ## Prerequisites
 1. Docker [https://www.docker.com]
@@ -67,6 +69,7 @@ python3 Official\ Solution.py
 ---
 
 > Note: These materials were used to present the paper [The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86)](https://dl.acm.org/doi/10.1145/1315245.1315313).
-> by Seurity and Privacy group One (Fitzgerald (Fiji) Marcelin, Joseph Remines, Saket Upadhyay, Wei Qi, Yu-Sheng Wang).
+> by the group "Seurity and Privacy 1" (Fitzgerald (Fiji) Marcelin, Joseph Remines, Saket Upadhyay, Wei Qi, Yu-Sheng Wang) @ University of Virginia.
 > Feel free to use them for your presentation under this [LICENSE](./LICENSE)
 
+> This project is build over the DownUnderCTF's 2020 challenge 'return-to-what' under 'pwn' category.
