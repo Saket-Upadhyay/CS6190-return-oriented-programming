@@ -68,7 +68,7 @@ python3 Official\ Solution.py
 
 ---
 
-> Note: These materials were used to present the paper [The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86)](https://dl.acm.org/doi/10.1145/1315245.1315313).
+> Note: These materials were used to present the paper [The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86)](https://dl.acm.org/doi/10.1145/1315245.1315313)
 > by the group "Seurity and Privacy 1" (Fitzgerald (Fiji) Marcelin, Joseph Remines, Saket Upadhyay, Wei Qi, Yu-Sheng Wang) @ University of Virginia.
 > Feel free to use them for your presentation under this [LICENSE](./LICENSE)
 
